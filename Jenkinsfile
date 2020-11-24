@@ -5,14 +5,8 @@ pipeline {
     stage('build') {
       steps {
         sh 'yarn install'
-        sh 'yarn test'
+        sh 'yarn test:headless'
       }
     }
-    stage('mochawesome-report') {
-      steps {
-        sh 'yarn combine-reports'
-        sh 'yarn generate-report'
       }
-    }
-  }
 }
