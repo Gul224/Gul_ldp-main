@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-10-08T14:07:25.392Z",
+    "end": "2020-10-08T14:07:30.709Z",
+    "duration": 5317,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "1d764978-b1b4-4df7-8eea-20eff4c31c15",
+      "title": "",
+      "fullFile": "cypress/integration/ui_tests/update-profile.spec.ts",
+      "file": "cypress/integration/ui_tests/update-profile.spec.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "de41bec9-d88c-4085-bb74-bb796ef4a203",
+          "title": "Profile details",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should fill personal account details and save",
+              "fullTitle": "Profile details should fill personal account details and save",
+              "timedOut": null,
+              "duration": 5258,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.clickOnMyAccount();\nprofilePage.clearEmail();\nprofilePage.typeInvalidEmail();\nprofilePage.seeEmailError();\nprofilePage.seeSaveButtonDisabled();\nprofilePage.clearEmail();\nprofilePage.typeValidEmail();\nprofilePage.clearPhoneNumber();\nprofilePage.typeInvalidPhoneNumber();\nprofilePage.seePhoneNumberError();\nprofilePage.seeSaveButtonDisabled();\nprofilePage.clearPhoneNumber();\nprofilePage.typeValidPhoneNumber();\nprofilePage.seeSaveButtonEnabled();\nprofilePage.clickOnSave();",
+              "err": {},
+              "uuid": "778349cf-994d-4027-8fb9-64659ab6dd8e",
+              "parentUUID": "de41bec9-d88c-4085-bb74-bb796ef4a203",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "778349cf-994d-4027-8fb9-64659ab6dd8e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5258,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

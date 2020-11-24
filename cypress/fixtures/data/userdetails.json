@@ -1,0 +1,10 @@
+{
+    "firstname" : "shravan",
+    "lastname" : "vemula",
+    "username" : "shravan_vemula",
+    "password" : "s3cret",
+    "email" : "shravan17298@gmail.com",
+    "phoneno" : "123456",
+    "invalidEmail" : "shravan.com",
+    "invalidPhoneNo" : "1234"
+} 

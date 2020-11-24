@@ -1,0 +1,146 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-10-08T14:07:17.725Z",
+    "end": "2020-10-08T14:07:21.925Z",
+    "duration": 4200,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "076bba60-06c5-46aa-9fb8-bda525d53875",
+      "title": "",
+      "fullFile": "cypress/integration/ui_tests/signup-login.spec.ts",
+      "file": "cypress/integration/ui_tests/signup-login.spec.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "83493e42-ce50-4927-8ff5-a60eda347d4d",
+          "title": "User Signup and login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should give details and signup",
+              "fullTitle": "User Signup and login should give details and signup",
+              "timedOut": null,
+              "duration": 3307,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.clickOnSignUp();\nsignupPage.typeFirstName();\nsignupPage.typeLastName();\nsignupPage.typeUserName();\nsignupPage.typePassword();\nsignupPage.typeConfirmPassword();\nsignupPage.clickOnSubmit();",
+              "err": {},
+              "uuid": "c2cd86a6-068a-4089-a022-b71b5c77fc06",
+              "parentUUID": "83493e42-ce50-4927-8ff5-a60eda347d4d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c2cd86a6-068a-4089-a022-b71b5c77fc06"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3307,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "0d056b26-2b2c-4538-a045-ac5c69a51c30",
+          "title": "User login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should give credentials and login",
+              "fullTitle": "User login should give credentials and login",
+              "timedOut": null,
+              "duration": 864,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.typeUserName();\nloginPage.typePassword();\nloginPage.clickOnSubmit();",
+              "err": {},
+              "uuid": "7ab1fa58-fe38-4ce6-ae0e-4ec72d823568",
+              "parentUUID": "0d056b26-2b2c-4538-a045-ac5c69a51c30",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7ab1fa58-fe38-4ce6-ae0e-4ec72d823568"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 864,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

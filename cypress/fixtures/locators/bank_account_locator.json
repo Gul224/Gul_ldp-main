@@ -1,0 +1,9 @@
+{
+    "bankAccountsTab" : "[data-test=sidenav-bankaccounts] > .MuiListItemText-root > .MuiTypography-root",
+    "newBankAccount"  : "[data-test=bankaccount-new]",
+    "bankName" : "bankaccount-bankName-input",
+    "routingNumber" : "bankaccount-routingNumber-input",
+    "accountNumber" : "bankaccount-accountNumber-input",
+    "saveButton" : "[data-test=bankaccount-submit] > .MuiButton-label"
+  
+}

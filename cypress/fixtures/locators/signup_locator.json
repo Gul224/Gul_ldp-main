@@ -1,0 +1,18 @@
+{
+    "firstName" : "firstName",
+    "lastName" : "lastName",
+    "username" : "username",
+    "password" : "password",
+    "confirmPassword" : "confirmPassword",
+    "signUpButton" : "button[type = 'submit']",
+    "firstNameHelperText" : "firstName-helper-text",
+    "lastNameHelperText" : "lastName-helper-text",
+    "userNameHelperText" : "username-helper-text",
+    "passwordHelperText" : "password-helper-text",
+    "confirmPasswordHelperText" : "confirmPassword-helper-text",
+    "firstNameErrorText" : "First Name is required",
+    "lastNameErrorText" : "Last Name is required",
+    "usernameErrorText" : "Username is required",
+    "passwordErrorText" : "Enter your password",
+    "mismatchErrorText" : "Password does not match"
+}

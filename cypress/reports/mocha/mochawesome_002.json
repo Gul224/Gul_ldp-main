@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-10-08T14:07:09.236Z",
+    "end": "2020-10-08T14:07:14.146Z",
+    "duration": 4910,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "05d998da-4c92-4828-8749-eeb7db9203c6",
+      "title": "",
+      "fullFile": "cypress/integration/ui_tests/signup-input-validation.spec.ts",
+      "file": "cypress/integration/ui_tests/signup-input-validation.spec.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7f3fa5a2-0301-4959-ac39-9ddaacfc9399",
+          "title": "User Signup (Exception Path)",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should give details and signup",
+              "fullTitle": "User Signup (Exception Path) should give details and signup",
+              "timedOut": null,
+              "duration": 4846,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.clickOnSignUp();\nsignupPage.typeFirstName();\nsignupPage.clearFirstName();\nsignupPage.typeLastName();\nsignupPage.clearLastName();\nsignupPage.typeUserName();\nsignupPage.clearUserName();\nsignupPage.typePassword();\nsignupPage.clearPassword();\nsignupPage.typeConfirmPassword();\nsignupPage.clearConfirmPassword();\nsignupPage.seesFirstNameError();\nsignupPage.seesLastNameError();\nsignupPage.seesUserNameError();\nsignupPage.seesPasswordError();\nsignupPage.typeMismatchingPasswords();\nsignupPage.seesPasswordMismatchError();\nsignupPage.seesSubmitButtonDisabled();",
+              "err": {},
+              "uuid": "7c1f48d1-c6a1-46e0-8f02-30c95ad3854b",
+              "parentUUID": "7f3fa5a2-0301-4959-ac39-9ddaacfc9399",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7c1f48d1-c6a1-46e0-8f02-30c95ad3854b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4846,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": "../node_modules",
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress" , "node", "cypress-file-upload"]
+  },
+  "include": [
+    "**/*.ts",
+    "support/index.d.ts",
+    "../node_modules/@types/node/globals.d.ts", "support/Pageobjects/CSVTubeUpload.js"
+  ]
+}

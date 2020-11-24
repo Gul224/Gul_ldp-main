@@ -1,0 +1,7 @@
+{
+    "newTransaction" : "[data-test=nav-top-new-transaction] > .MuiButton-label",
+    "friendIcon" : "[data-test=user-list-item-t45AiwidW] > .MuiListItemText-root > .MuiListItemText-primary",
+    "amount" : "amount",
+    "description" : "transaction-create-description-input",
+    "saveButton" : "[data-test=transaction-create-submit-payment]"
+}

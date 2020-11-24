@@ -1,0 +1,6 @@
+{
+    "username" : "username",
+    "password" : "password",
+    "signInButton" : "button[type='submit']",
+    "signUpText" : "Sign Up"
+}

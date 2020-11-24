@@ -1,0 +1,9 @@
+{
+    "email" : "user-settings-email-input",
+    "emailHelperText" : "user-settings-email-input-helper-text",
+    "phoneNumber" : "user-settings-phoneNumber-input",
+    "phoneNumberHelperText":"user-settings-phoneNumber-input-helper-text",
+    "saveButton" : "[data-test=user-settings-submit]",
+    "emailErrorText" : "Must contain a valid email address",
+    "phoneNoErrorText" : "Phone number is not valid"
+}
